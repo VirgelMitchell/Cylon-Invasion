@@ -58,4 +58,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 *.URL
-Assets/Starfield Skybox/
+Assets/Asset Packs/
+Assets/Asset Packs.meta

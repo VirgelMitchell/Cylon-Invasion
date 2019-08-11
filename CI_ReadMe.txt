@@ -21,4 +21,8 @@ Commits
 		Weapons 2 Laser Torpedoes (Pump Lasers)
 		Twin Fusion Plants (output: 58.4*10^12 Joules)		
 		Tylium Reactor (output: 144.3*10^12 Joules)
-		
+-Aug 11, 2019 @ 14:13 (PDT)
+	Loaded background music and created player for it
+	Set up Camera Path via waypoints
+	added Logo to Splash screen
+		note: need to work on transparency!!!
