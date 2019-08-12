@@ -26,3 +26,5 @@ Commits
 	Set up Camera Path via waypoints
 	added Logo to Splash screen
 		note: need to work on transparency!!!
+-Aug 11, 2019 @ 19:46 (PDT)
+	Created ship control script and tuned ship movement.
