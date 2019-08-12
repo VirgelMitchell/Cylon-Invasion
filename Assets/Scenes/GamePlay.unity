@@ -362,6 +362,90 @@ Transform:
   m_Father: {fileID: 1441257647}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &909796231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1568804246085147825}
+    m_Modifications:
+    - target: {fileID: 2939560302829810709, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_Name
+      value: Starboard Laser Cannon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.923
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.471
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.785
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.004363274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999905
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810696, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810696, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: TrailModule.lifetime.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810696, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5287059d66f2fca4d9e177ce5943b421, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +1000,90 @@ MonoBehaviour:
   horizontalRange: 10
   verticalRange: 5
   speed: 20
-  pitchFactor: -0.8
-  yawFactor: 1.4
+  pitchFactor: -1.75
+  yawFactor: 3
   rollFactor: -20
+--- !u!1001 &2939560301750138776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1568804246085147825}
+    m_Modifications:
+    - target: {fileID: 2939560302829810709, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_Name
+      value: Starboard Laser Cannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.955
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.473
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.004363368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999905
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810710, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810696, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810696, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: TrailModule.lifetime.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939560302829810696, guid: 5287059d66f2fca4d9e177ce5943b421,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5287059d66f2fca4d9e177ce5943b421, type: 3}

@@ -28,3 +28,6 @@ Commits
 		note: need to work on transparency!!!
 -Aug 11, 2019 @ 19:46 (PDT)
 	Created ship control script and tuned ship movement.
+-Aug 12, 2019 @ 09:38
+	Added Laser Cannons to Player Ship
+	Created an explosion fX
