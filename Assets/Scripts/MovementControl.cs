@@ -5,24 +5,23 @@ using CPIM = UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager;
 
 public class MovementControl : MonoBehaviour
 {
+    [Header("Movement")]
     [Tooltip("in m")] [SerializeField] float horizontalRange = 10f;
     [Tooltip("in m")] [SerializeField] float verticalRange = 5.5f;
     [Tooltip("in m/s^2")] [SerializeField] float speed = 25f;
+
+    [Header("Position Modifiers")]
     [SerializeField] float pitchFactor = -0.8f;
     [SerializeField] float yawFactor = 1.4f;
     [SerializeField] float rollFactor = 5f;
 
+    bool isDead = false;
     Vector2 sThrow = new Vector2();
     Vector3 displacement = new Vector3();
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        if (isDead) { return; }
         GetInput();
         TranslateShip();
         RotateShip();
@@ -35,8 +34,6 @@ public class MovementControl : MonoBehaviour
 
         sThrow.y = CPIM.GetAxis("Vertical");
         displacement.y = sThrow.y * speed * Time.deltaTime;
-
-        print($"Throw = {sThrow} ===> {displacement}m/f");
     }
 
     void TranslateShip()
@@ -58,5 +55,10 @@ public class MovementControl : MonoBehaviour
         float roll = sThrow.x * rollFactor;
 
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+    }
+
+    void PlayerDead()   // Called by string ref
+    {
+        isDead = true;
     }
 }

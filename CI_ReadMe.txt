@@ -31,3 +31,12 @@ Commits
 -Aug 12, 2019 @ 09:38
 	Added Laser Cannons to Player Ship
 	Created an explosion fX
+-Aug 12, 2019 @ 20:39
+	Made Music Player persistant
+	Made Level Loader persistant
+	Added Death sequence to player ship
+	Created model for enemy ship
+	Added Enemy ship model to Unity
+	enabled laser damage on enemy
+	Left TODO: fix bug where level does not reload on player death
+	Left TODO: fix bug where Mesh Collider not recieving particle collisions
