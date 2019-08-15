@@ -27,14 +27,14 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5809677667735054607}
-  - {fileID: 851099739292147944}
-  - {fileID: 4335419422202670942}
-  - {fileID: 4817491557625005391}
+  - {fileID: 4168562495950095433}
+  - {fileID: 2619848739672129476}
+  - {fileID: 4001607656491712376}
+  - {fileID: 7850635697261864087}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &569317001471151384
+--- !u!1001 &3012550077972655296
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -44,37 +44,37 @@ PrefabInstance:
     - target: {fileID: 4989343831954147413, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Raider (3)
+      value: Cylon Raider (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.6
+      value: -6.4
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.7
+      value: 15.7
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
@@ -103,13 +103,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c672a57438c6e5245aad67e0cedfb68b, type: 3}
---- !u!4 &4817491557625005391 stripped
+--- !u!4 &7850635697261864087 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
     type: 3}
-  m_PrefabInstance: {fileID: 569317001471151384}
+  m_PrefabInstance: {fileID: 3012550077972655296}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1557588826425647448
+--- !u!1001 &7018340274938099603
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -119,112 +119,37 @@ PrefabInstance:
     - target: {fileID: 4989343831954147413, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Raider
+      value: Cylon Raider (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.6
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c672a57438c6e5245aad67e0cedfb68b, type: 3}
---- !u!4 &5809677667735054607 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1557588826425647448}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5688613075285338303
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4622127017886069401}
-    m_Modifications:
-    - target: {fileID: 4989343831954147413, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy Raider (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
@@ -253,13 +178,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c672a57438c6e5245aad67e0cedfb68b, type: 3}
---- !u!4 &851099739292147944 stripped
+--- !u!4 &2619848739672129476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
     type: 3}
-  m_PrefabInstance: {fileID: 5688613075285338303}
+  m_PrefabInstance: {fileID: 7018340274938099603}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &8725501323481573129
+--- !u!1001 &8265553585677416239
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -269,37 +194,37 @@ PrefabInstance:
     - target: {fileID: 4989343831954147413, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Raider (2)
+      value: Cylon Raider (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.2
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.4
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
         type: 3}
@@ -328,9 +253,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c672a57438c6e5245aad67e0cedfb68b, type: 3}
---- !u!4 &4335419422202670942 stripped
+--- !u!4 &4001607656491712376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
     type: 3}
-  m_PrefabInstance: {fileID: 8725501323481573129}
+  m_PrefabInstance: {fileID: 8265553585677416239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8999318259378867230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4622127017886069401}
+    m_Modifications:
+    - target: {fileID: 4989343831954147413, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_Name
+      value: Cylon Raider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c672a57438c6e5245aad67e0cedfb68b, type: 3}
+--- !u!4 &4168562495950095433 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4989343831954147415, guid: c672a57438c6e5245aad67e0cedfb68b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8999318259378867230}
   m_PrefabAsset: {fileID: 0}

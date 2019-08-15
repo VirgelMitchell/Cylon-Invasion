@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 
-public class MusicPlayer : MonoBehaviour
+namespace Core
 {
-    void Awake()
+    public class MusicPlayer : MonoBehaviour
     {
-        int musicPlayers = FindObjectsOfType<MusicPlayer>().Length;
-        if (musicPlayers > 1) { Destroy(gameObject); }
-        else { DontDestroyOnLoad(gameObject); }
+        void Awake()
+        {
+            int musicPlayers = FindObjectsOfType<MusicPlayer>().Length;
+            if (musicPlayers > 1) { Destroy(gameObject); }
+            else { DontDestroyOnLoad(gameObject); }
+        }
     }
 }

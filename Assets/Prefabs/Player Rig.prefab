@@ -112,11 +112,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8374984307307367848}
     m_Modifications:
-    - target: {fileID: 6660149752759316956, guid: 6c10798670b45c24b9457e76036e1d5d,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7793660180513628552, guid: 6c10798670b45c24b9457e76036e1d5d,
         type: 3}
       propertyPath: m_Name
@@ -177,24 +172,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
+    - target: {fileID: 6660149752759316956, guid: 6c10798670b45c24b9457e76036e1d5d,
         type: 3}
-      propertyPath: CollisionModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
-        type: 3}
-      propertyPath: CollisionModule.type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
-        type: 3}
-      propertyPath: CollisionModule.m_Bounce.scalar
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
-        type: 3}
-      propertyPath: CollisionModule.collisionMessages
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4399710772448414498, guid: 6c10798670b45c24b9457e76036e1d5d,
@@ -218,6 +198,31 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4399710772448414527, guid: 6c10798670b45c24b9457e76036e1d5d,
+        type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399710772448414527, guid: 6c10798670b45c24b9457e76036e1d5d,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
+        type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
+        type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
+        type: 3}
+      propertyPath: CollisionModule.m_Bounce.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568804245005475616, guid: 6c10798670b45c24b9457e76036e1d5d,
         type: 3}
       propertyPath: CollisionModule.collisionMessages
       value: 1

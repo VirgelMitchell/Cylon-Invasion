@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4989343831954147415}
   - component: {fileID: 4536612978703081143}
-  - component: {fileID: 4835878603213381462}
   m_Layer: 0
   m_Name: Cylon Raider
   m_TagString: Untagged
@@ -45,19 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9bf0ed11548f0c43a1e7728def3cf9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &4835878603213381462
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4989343831954147413}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6.9, y: 1.15, z: 5.26}
-  m_Center: {x: 0, y: 0.2, z: 0}
+  deathFX: {fileID: 8834681261759063652, guid: b78e28f3b18de884193f238cd09e5e65, type: 3}
 --- !u!1001 &4989343832760993542
 PrefabInstance:
   m_ObjectHideFlags: 0

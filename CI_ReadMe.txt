@@ -40,3 +40,11 @@ Commits
 	enabled laser damage on enemy
 	Left TODO: fix bug where level does not reload on player death
 	Left TODO: fix bug where Mesh Collider not recieving particle collisions
+-Aug 15, 2019 @10:43
+	Changed Cylon Raider collider to a Box Collider
+	Instantiated enemy colliders at runtime
+	instantiated enemy death effects on particle collisions
+	Created Cleaner script
+	Added Namespaces (Core, Control)
+	Added UI Score text
+	Added protection against ORIOs for enemy deathFX.parent
