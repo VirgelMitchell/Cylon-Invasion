@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
-
 using CPIM = UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager;
+
 namespace Control
 {
     public class MovementControl : MonoBehaviour
@@ -58,9 +57,12 @@ namespace Control
             transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
         }
 
-        void PlayerDead()   // Called by string ref
+        void OnDeath(string tag)    //Called by String Ref
         {
-            isDead = true;
+            if (gameObject.tag == tag)
+            {
+                isDead = true;
+            }
         }
     }
 }

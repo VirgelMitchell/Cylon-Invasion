@@ -5,7 +5,10 @@ namespace Control
 {
     public class EnemyController : MonoBehaviour
     {
+        [Header("General")]
         [Tooltip("int")] [SerializeField] int pointValue = 10;
+        
+        [Header("GameObject Links")]
         [Tooltip("takes prefab")] [SerializeField] GameObject deathFX;
         [SerializeField] Transform parent;
 
@@ -15,7 +18,7 @@ namespace Control
         {
             SetParent();
             AddCollider();
-            scoreBoard = FindObjectOfType<Canvas>().GetComponent<ScoreBoard>();
+            scoreBoard = FindObjectOfType<ScoreBoard>();
         }
 
         private void SetParent()
@@ -37,6 +40,13 @@ namespace Control
         }
 
         void OnParticleCollision(GameObject other)
+        {
+            int damage = other.gameObject.GetComponentInParent<FireControl>().GetDamage();
+            Debug.Log(damage);
+            GetComponent<Health>().TakeDamage(damage);
+        }
+
+        void OnDeath(string tag)    //Called by String Ref
         {
             SpawnDeathEffects();
             scoreBoard.AddToScore(pointValue);

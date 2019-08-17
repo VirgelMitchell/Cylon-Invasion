@@ -48,3 +48,5 @@ Commits
 	Added Namespaces (Core, Control)
 	Added UI Score text
 	Added protection against ORIOs for enemy deathFX.parent
+-August 15, 2019
+	instantiated Scoring methodollogy
