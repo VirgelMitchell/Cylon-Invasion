@@ -57,7 +57,7 @@ namespace Control
             transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
         }
 
-        void OnDeath(string tag)    //Called by String Ref
+        void OnDeath()    //Called by String Ref
         {
             if (gameObject.tag == tag)
             {

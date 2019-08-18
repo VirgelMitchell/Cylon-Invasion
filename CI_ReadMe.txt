@@ -50,3 +50,7 @@ Commits
 	Added protection against ORIOs for enemy deathFX.parent
 -August 15, 2019
 	instantiated Scoring methodollogy
+-August 17, 2019 @ 08:52
+	Fixed Bug: didn't reload on player death
+	Added Health System
+	Refactor FireControl.cs

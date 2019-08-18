@@ -16,10 +16,12 @@ namespace Control
 
          private void Update()
         {
-            if (isDead) { return; }
-            CheckRightTrigger();
-            CheckLeftTrigger();
-            
+            if (isDead)
+            {
+                ToggleCannons(false);
+                return;
+            }
+            ToggleCannons(CheckRightTrigger());
         }
 
         public int GetDamage() { return damage; }
@@ -32,28 +34,20 @@ namespace Control
             }
         }
 
-        private void CheckRightTrigger()
+        private bool CheckRightTrigger()
         {
-            if (Input.GetAxis("Fire1") >= 0.1)
+            if (Input.GetAxis("Fire1") >= 0.1)  { return true; }
+            else                                { return false; }
+        }
+
+        private void ToggleCannons(bool active)
+        {
+            foreach (ParticleSystem system in cannons)
             {
-                foreach (ParticleSystem system in cannons)
+                if (isCannon(system))
                 {
-                    if (isCannon(system))
-                    {
-                        var emission = system.emission;
-                        emission.enabled = true;
-                    }
-                }
-            }
-            else
-            {
-                foreach (ParticleSystem system in cannons)
-                {
-                    if (isCannon(system))
-                    {
-                        var emission = system.emission;
-                        emission.enabled = false;
-                    }
+                    var emission = system.emission;
+                    emission.enabled = active;
                 }
             }
         }
@@ -61,14 +55,8 @@ namespace Control
         // This Method depends on Names of Game Objects
         bool isCannon(ParticleSystem system)
         {
-            if (
-                system.name == "Starboard Laser Cannon" &&
-                system.transform.parent.name == "Player Ship")
-            { return true; }
-            
-            else if (
-                system.name == "Port Laser Cannon" &&
-                system.transform.parent.name == "Player Ship")
+            if ( system.name == "Starboard Laser Cannon" ||
+                 system.name == "Port Laser Cannon" )
             { return true; }
             
             else { return false; }
@@ -83,12 +71,9 @@ namespace Control
             }
         }
 
-        void OnDeath(string tag)    //Called by String Ref
+        void OnDeath()    //Called by String Ref
         {
-            if (gameObject.tag == tag)
-            {
-                isDead = true;
-            }
+            isDead = true;
         }
     }
 }

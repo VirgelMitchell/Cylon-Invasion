@@ -34,15 +34,12 @@ public class Health : MonoBehaviour
 
     void DeclareDeath()
     {
-        SendMessage("OnDeath", gameObject.tag);
+        SendMessage("OnDeath");
         isAlive = false;
     }
 
-    void OnDeath(string tag)    //Called by String Ref
+    void OnDeath()    //Called by String Ref
     {
-        if (gameObject.tag == tag)
-        {
-            isAlive = false;
-        }
+        isAlive = false;
     }
 }

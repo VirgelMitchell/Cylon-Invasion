@@ -46,7 +46,7 @@ namespace Control
             GetComponent<Health>().TakeDamage(damage);
         }
 
-        void OnDeath(string tag)    //Called by String Ref
+        void OnDeath()    //Called by String Ref
         {
             SpawnDeathEffects();
             scoreBoard.AddToScore(pointValue);

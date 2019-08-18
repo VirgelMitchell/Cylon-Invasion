@@ -14,7 +14,7 @@ namespace Core
 
         void StartDeathSequence()
         {
-            SendMessage("OnDeath", gameObject.tag);
+            SendMessage("OnDeath");
             deathFX.SetActive(true);
         }
     }

@@ -18,13 +18,14 @@ namespace Core
 
         void Start()
         {
-            SetPlayer();
+            ResetPlayer();
             Scene scene = SceneManager.GetActiveScene();
-            if (scene.buildIndex == 0) { Invoke("LoadMenu", 5f); }
+            if (scene.buildIndex == 0) { Invoke("LoadMenu", loadDelay); }
         }
 
         void Update()
         {
+            if (player == null) { ResetPlayer(); }
             IncrimentTimers();
             if (NeedReload())
             {
@@ -32,16 +33,17 @@ namespace Core
             }
         }
 
-        private void SetPlayer()
+        private void ResetPlayer()
         {
             player = GameObject.FindWithTag("Player").GetComponent<Health>();
         }
 
         private bool NeedReload()
         {
+            if (player == null) { ResetPlayer(); }
             if (timeSinceLoad >= loadDelay)
             {
-                if (player.GetIsAlive() == false) { Debug.Log("isAlive = false");return true; }
+                if (player.GetIsAlive() == false) { return true; }
             }
             return false;
         }
@@ -55,7 +57,6 @@ namespace Core
         {
             timeSinceLoad = 0f;
             LoadMenu();
-            SetPlayer();
         }
 
         void LoadMenu()     // Called by script ref.
