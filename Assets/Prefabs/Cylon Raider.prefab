@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointValue: 10
+  colliderSize: {x: 7, y: 1.5, z: 6}
   deathFX: {fileID: 8834681261759063652, guid: b78e28f3b18de884193f238cd09e5e65, type: 3}
   parent: {fileID: 0}
 --- !u!114 &84490324265650900

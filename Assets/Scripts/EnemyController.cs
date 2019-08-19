@@ -7,7 +7,8 @@ namespace Control
     {
         [Header("General")]
         [Tooltip("int")] [SerializeField] int pointValue = 10;
-        
+        [SerializeField] Vector3 colliderSize = new Vector3(1f, 1f, 1f);
+
         [Header("GameObject Links")]
         [Tooltip("takes prefab")] [SerializeField] GameObject deathFX;
         [SerializeField] Transform parent;
@@ -35,7 +36,8 @@ namespace Control
 
         void AddCollider()
         {
-            Collider collider = gameObject.AddComponent<BoxCollider>();
+            BoxCollider collider = gameObject.AddComponent<BoxCollider>();
+            collider.size = colliderSize;
             collider.isTrigger = false;
         }
 
