@@ -18,9 +18,9 @@ namespace Core
 
         void Start()
         {
-            ResetPlayer();
             Scene scene = SceneManager.GetActiveScene();
             if (scene.buildIndex == 0) { Invoke("LoadMenu", loadDelay); }
+            else { ResetPlayer(); }
         }
 
         void Update()
