@@ -59,7 +59,7 @@ namespace Core
             LoadMenu();
         }
 
-        void LoadMenu()     // Called by script ref.
+        void LoadMenu()     // Called by string ref in Start()
         {
             SceneManager.LoadScene(1);
         }

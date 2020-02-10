@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using CPIM = UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager;
 
 namespace Control
 {
@@ -29,10 +28,10 @@ namespace Control
 
         private void GetInput()
         {
-            sThrow.x = CPIM.GetAxis("Horizontal");
+            sThrow.x = Input.GetAxis("Horizontal");
             displacement.x = sThrow.x * speed * Time.deltaTime;
 
-            sThrow.y = CPIM.GetAxis("Vertical");
+            sThrow.y = Input.GetAxis("Vertical");
             displacement.y = sThrow.y * speed * Time.deltaTime;
         }
 
@@ -64,5 +63,7 @@ namespace Control
                 isDead = true;
             }
         }
+
+
     }
 }
